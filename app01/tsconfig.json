@@ -12,7 +12,9 @@
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
     "incremental": true,
+    "moduleResolution": "node",
     "esModuleInterop": true,
+    "resolveJsonModule": true,
     "module": "esnext",
     "isolatedModules": true,
     "jsx": "preserve"
@@ -21,7 +23,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-, "pages/index.tsx", "pages/posts/fehra.tsx"  ],
+  ],
   "exclude": [
     "node_modules"
   ]
